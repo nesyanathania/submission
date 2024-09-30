@@ -4,8 +4,8 @@ import matplotlib.pyplot as plt
 import seaborn as sns
 
 # Membaca data dari CSV
-data1 = pd.read_csv('data1_project.csv')  # Data untuk analisis pertama
-data2 = pd.read_csv('data2_project.csv')  # Data untuk analisis kedua
+data1 = pd.read_csv('dashboard/data1_project.csv') # Data untuk analisis pertama
+data2 = pd.read_csv('dashboard/data2_project.csv')  # Data untuk analisis kedua
 
 # Fungsi untuk analisis pertama (korelasi antara jumlah foto dan rating ulasan)
 def plot_correlation(data):
